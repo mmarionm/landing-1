@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400&family=Playfair+Display&display=swap");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+body {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  margin: 0px;
+  background-color: #FEF1E6;
+
+}
+h1, h2, h3 {
+  font-family: 'Barlow', sans-serif;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+
+  font-family: 'Roboto', sans-serif;
+
+  color: #ADC2A9;
+  font-weight: 600;
+    font-size: 16px;
+}
+a:hover {
+  color: black;
+}
+
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+  color: black;
+
